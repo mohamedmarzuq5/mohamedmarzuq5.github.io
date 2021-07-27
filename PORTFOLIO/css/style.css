@@ -1226,7 +1226,7 @@
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
     border-radius: 31px;
-    background-color: rgb(151, 108, 180);
+    background-color: #4982ee;
     pointer-events: none;
     
     -webkit-transition: all 0.4s;
@@ -1236,7 +1236,7 @@
   }
   
   .contact100-form-btn:hover:before {
-    background-color: #403866;
+    background-color: #70b1a1;
     width: calc(100% + 20px);
   }
   

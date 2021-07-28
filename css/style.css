@@ -267,7 +267,7 @@
     margin: 0 auto;
     background-color: #4982ee;
     height: 6rem;
-    width: 20rem;
+    width: 22rem;
     cursor: pointer;
     transition: 0.2s ease-in;
     border-radius: 1.5rem;
@@ -946,7 +946,7 @@
     }
   
     .landingbtn {
-      width: 16rem;
+      width: 22rem;
     }
   
     .landing-text {

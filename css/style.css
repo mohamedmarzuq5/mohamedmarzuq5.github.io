@@ -61,7 +61,7 @@
   .section-heading h1 {
     font-family: "Roboto", sans-serif;
     font-size: 3.5rem;
-    color: rgb(31, 130, 134);
+    color: #2869e3;
     text-transform: uppercase;
     font-weight: 900;
     position: relative;
@@ -317,7 +317,7 @@
   }
   
   .about-heading h1 {
-    color: rgba(31, 131, 134, 0.644);
+    color: #2869e3;
     font-size: 10rem;
   }
   

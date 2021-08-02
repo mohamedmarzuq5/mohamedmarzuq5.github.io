@@ -428,7 +428,7 @@
   .icon-container {
     width: 10rem;
     height: 10rem;
-    border: 3px solid #6c4a88;
+    border: 3px solid rgba(31, 131, 134, 0.644);
     background-color: #a8a5a81a;
     margin-bottom: 2rem;
     display: flex;

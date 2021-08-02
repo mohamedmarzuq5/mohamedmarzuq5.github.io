@@ -268,7 +268,7 @@
     margin: 0 auto;
     background-color: #4982ee;
     height: 6rem;
-    width: 19rem;
+    width: 17rem;
     cursor: pointer;
     transition: 0.2s ease-in;
     border-radius: 1.5rem;
@@ -281,7 +281,7 @@
   
   .landingbtn p {
     font-family: "Open Sans", "sans-serif";
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
   
   .landingbtn:hover {

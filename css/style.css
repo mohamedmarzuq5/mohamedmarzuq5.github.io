@@ -255,6 +255,7 @@
     font-weight: 200;
     /* margin: 5px; */
     margin-bottom: 2rem;
+    
   
     
   
@@ -274,12 +275,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #ffff;
   
   }
   
   .landingbtn p {
     font-family: "Open Sans", "sans-serif";
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   
   .landingbtn:hover {

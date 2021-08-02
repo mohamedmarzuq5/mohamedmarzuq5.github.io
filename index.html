@@ -957,8 +957,6 @@
 
                     <div class="wrap-contact100">
 
-                        <form id="submit-form" class="contact100-form"
-                            action="https://script.google.com/macros/s/AKfycbygCCQmVdVfIYGAapOK6AVqfkVf4Evr4JUYKiy_VcY_4P2qaORD/exec">
 
                             <!-- <input type='hidden' name='redirect_to' value='thankyou.html' /> -->
 
@@ -1067,7 +1065,6 @@
         $("#submit-form").submit((e) => {
             e.preventDefault()
             $.ajax({
-                url: "https://script.google.com/macros/sCQmVdVfIYGAapOK6AVqfkVf4Evr4JUYKiy_VcY_4P2qaORD/exec",
                 data: $("#submit-form").serialize(),
                 method: "post",
                 success: function (response) {

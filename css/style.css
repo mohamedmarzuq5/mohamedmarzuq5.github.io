@@ -785,6 +785,10 @@
     font-size: 1.4rem;
   }
 
+  .phoneno:hover {
+    color: #2869e3;
+  }
+
   .copyrightmohd {
     text-align: center;
     left: 50%;

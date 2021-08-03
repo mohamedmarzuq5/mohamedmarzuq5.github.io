@@ -784,6 +784,13 @@
     font-weight: 200;
     font-size: 1.4rem;
   }
+
+  .copyrightmohd {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+  }
   
   .copyright {
     width: 100%;

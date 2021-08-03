@@ -957,6 +957,8 @@
 
                     <div class="wrap-contact100">
 
+                        <form id="submit-form" class="contact100-form" 
+                            action="https://script.google.com/macros/s/AKfycbzHCTv2dzXznJO1qCheKd4-4h67O7EOWFkPkwsOwt4ZcVOCdtmEKo0TqQOeDiKNEjnygA/exec">
 
                             <!-- <input type='hidden' name='redirect_to' value='thankyou.html' /> -->
 
@@ -1065,12 +1067,13 @@
         $("#submit-form").submit((e) => {
             e.preventDefault()
             $.ajax({
+                url: "https://script.google.com/macros/s/AKfycbzHCTv2dzXznJO1qCheKd4-4h67O7EOWFkPkwsOwt4ZcVOCdtmEKo0TqQOeDiKNEjnygA/exec",
                 data: $("#submit-form").serialize(),
                 method: "post",
                 success: function (response) {
                     alert("Form submitted successfully")
-                    window.location.reload()
-                    window.location.href = "https://mohamed-marzuqgithub.io/thankyou.html"
+                    //window.location.reload()
+                    window.location.href = "https://mohamedmarzuq.github.io/thankyou.html"
                 },
                 error: function (err) {
                     alert("Something Error")

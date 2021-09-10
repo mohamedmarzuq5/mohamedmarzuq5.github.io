@@ -118,7 +118,7 @@
     transition: all 650ms cubic-bezier(1,0,0,1);
   }
   .nav-links.primary-border {
-    color: rgb(12, 6, 6);
+    color: #fff;
     border: 1px solid #333399;
     border-radius: 20px;
     
